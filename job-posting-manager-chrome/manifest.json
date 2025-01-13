@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Job Posting Manager",
+  "version": "1.0",
+  "description": "Manage job postings on LinkedIn with custom flags and notes.",
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["https://www.linkedin.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/jobs/*"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+

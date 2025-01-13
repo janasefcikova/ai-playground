@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Posting Manager</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    h2 {
+      margin-top: 0;
+    }
+    label, select, textarea, button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    select, textarea {
+      padding: 5px;
+    }
+    button {
+      background-color: #0a66c2;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+    }
+    #jobInfo {
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+    #lastUpdated {
+      font-size: 0.8em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h2>Job Posting Manager</h2>
+  <div id="jobInfo"></div>
+  <label for="status">Status:</label>
+  <select id="status">
+    <option value="Not Applied">Not Applied</option>
+    <option value="Applied">Applied</option>
+    <option value="Interviewed">Interviewed</option>
+    <option value="Rejected">Rejected</option>
+    <option value="Offer Received">Offer Received</option>
+  </select>
+  <label for="notes">Notes:</label>
+  <textarea id="notes" rows="4"></textarea>
+  <button id="save">Save</button>
+  <p id="lastUpdated"></p>
+  <script src="popup.js"></script>
+</body>
+</html>
+
