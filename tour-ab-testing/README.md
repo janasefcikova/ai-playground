@@ -1,4 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tour preview ab-testing with Next on client side
+
+## Motivation
+I was curious how A/B testing can be done with React. 
+
+I asked Claude to give me some ideas and this project shows client side A/B testing without any library.
+
+## Code generation with Claude
+
+> #### Claude prompt
+> Make an app listing travel tours previews as in GetYourGuide. Create artificial data for each tour. Now we want A/B test two features .
+Research the web and propose two best approaches to invite users to explore or book tours more.
+Implement it with React.
+Summarise proposed technical options used for A/B react testing.
+
+Claude suggested:
+
+>First, let's identify two features to A/B test based on common travel booking patterns:
+>
+> Version A: Social proof + Urgency (showing number of recent bookings and spots left)
+Version B: Price anchor + Special offer (showing original price and discount)
+
+## Output 
+Claude generated working code for the prompt that is available in first commit in this repository in the Page.tsx. 
+
+However, Claude doesn't support downloading whole solution. 
+
+But it can be prompted to give step-by-step instructions. I used "Generate step-by-step guide how to build project with this app. Include npm steps".
+
+This prompt lead Claude to refactor code even more, he created instructions. I dropped this, as for prototyping we don't need clean architecture. 
+
+It was enough create Next.js project and install couple libraries that he suggested. 
+
+The generated project worked however it would be necessary to solve bug _"Hydration failed because the server rendered HTML didn't match the client."_ due to random variant selection.
+
+## Usage 
+After running localhost, use Refresh to see different variants for the same tour preview. 
+
+## Screenshots 
+
+### Variant A : Price anchor + Special offer
+![Variant A](README_assets/PriceAnchor_SpecialOffer_variantA.png)
+
+### Variant B : Social proof + Urgency
+![Variant B](README_assets/SocialProof_urgency_variantB.png)
+
+## Learnings
+- Ask Claude for instruction to build project
+- Restrict project generation to use minimal count of libraries 
+- Claude can be very effective to show variants and would be great to micro-test components variants.
+
+# Tech documentation
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) .
 
 ## Getting Started
 
