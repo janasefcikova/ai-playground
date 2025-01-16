@@ -49,7 +49,7 @@ The journey doesn’t stop here! Future updates will include:
 If this resonates with you, feel free to reach out or connect with me:
 - [LinkedIn](https://www.linkedin.com/in/janasefcikova/)
 
-// TODO add CV, more links and X
+<!-- TODO add CV, more links and X -->
 ---
 
 Thank you for stopping by! Whether you’re a fellow developer, designer, or just curious about AI, I hope you find inspiration and value here or start your exploratory journey. Happy exploring! 😊
