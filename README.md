@@ -70,3 +70,5 @@ Here is list of experiments. The latest is at the top.
 | ❌      | **Image Uploader**             | Attempt to recreate AI Next.js app from YouTube tutorial.                    | Cursor, v0                                            | ⏱️ 1 hour (not completed) | [Repo](./image-uploader/README.md)             | [video](https://www.youtube.com/watch?v=zyqwt65NIgs)               |
 
 
+### Other potential inspirations:
+- [PydanticAI and The Future of AI Agents](https://www.linkedin.com/events/7282875144019070976) - 1h, MongoDB live
