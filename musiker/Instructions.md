@@ -12,7 +12,8 @@ Musiker repo is an attempt to reproduce streaming platform using almost 0 zero c
 
 
 ## Song data set
-The demo is using data set of songs hosted on S3. To have some songs data, I created _songs.json_ that should fit purpose. 
+The demo is using data set of songs hosted on S3. To have some songs data, I created _songs.json_ that should fit purpose. Thanks to [OpenGameArt](https://opengameart.org/) and authors for the songs.
+To check and clean data it was easier to directly make web for it from json and at the end I successfully side-tracked to spent time on it :) However I made my first better website [game-tracks](../game-tracks/README.md).
 
 ## Creating v0.dev project
 Create new project in v0.dev.

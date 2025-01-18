@@ -1,4 +1,6 @@
-[
+import { Song } from './types'
+
+export const songsData: Song[] = [
   {
     "name": "Of Stone & Strings Loop",
     "slug": "trevor-lentz-of-stone-strings-loop",
@@ -483,3 +485,4 @@
     }
   }
 ]
+
