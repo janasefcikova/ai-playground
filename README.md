@@ -58,12 +58,12 @@ Thank you for stopping by! Whether you’re a fellow developer, designer, or jus
 ## ⏱️ Projects and Time Taken
 Here is list of experiments. The latest is at the top.
 
-**Please note** that _time taken_ includes whole experimenting time, including swapping tools, brainstorming, fixing bugs.
+**Please note** that _time taken_ includes whole experimenting time, including swapping tools, brainstorming, fixing bugs, writing blog, creating data ...
 
 
 | Status | Project Name                   | Description                                                                  | Tools                                                 | ⏱️Time Taken              | Readme / repo                                  | Links                                                              |
 |--------|--------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------|---------------------------|------------------------------------------------|--------------------------------------------------------------------|
-| 📌     | **Music streamer**             | TODO                                                                         | v0, Mongo, [mdb](https://mdb.link/mdb-schema-builder) |                           |                                                | [live](https://www.linkedin.com/events/7284721434587766784/about/) |
+| 📌     | **Music streamer**             | TODO                                                                         | v0, Mongo, [mdb](https://mdb.link/mdb-schema-builder) | ⏱️ ~2 hours               |                                                | [live](https://www.linkedin.com/events/7284721434587766784/about/) |
 | ✅      | **CV Crafter**                 | Prototyping with long prompts to create a CV tool.                           | v0, Claude                                            | ⏱️ ~3 hours               | [Repo](./cv-crafter/README.md)                 |                                                                    |
 | ✅      | **Tour A/B Testing**           | A/B testing for tour listings using random variant selection in `useEffect`. | Claude, Next.js                                       | ⏱️ ~2 hours               | [Repo](./tour-ab-testing/README.md)            |                                                                    |
 | ✅      | **Job Posting Manager Chrome** | Testing V0 code generation to build a Google Chrome extension.               | v0                                                    | ⏱️ ~5 hours               | [Repo](./job-posting-manager-chrome/README.md) |                                                                    |
