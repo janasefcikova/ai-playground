@@ -73,3 +73,4 @@ Here is list of experiments. The latest is at the top.
 
 ### Other potential inspirations:
 - [PydanticAI and The Future of AI Agents](https://www.linkedin.com/events/7282875144019070976) - 1h, MongoDB live
+- [Find and apply for jobs](https://github.com/browser-use/browser-use/blob/main/examples/find_and_apply_to_jobs.py) with [browser-use](https://github.com/browser-use/browser-use) that should provide interface with between AI agents and web browsers. [Source of inspiration](https://www.linkedin.com/posts/addyosmani_softwareengineering-programming-ai-activity-7283384581691523072-YEjh?utm_source=share&utm_medium=member_desktop). Also there is [Browser Use WebUI](https://github.com/browser-use/web-ui).
