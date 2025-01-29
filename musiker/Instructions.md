@@ -1,6 +1,10 @@
 # Musiker
 Musiker repo is an attempt to reproduce streaming platform using almost 0 zero code with v0.dev and mongoDB loosely following [this AI live show](https://www.linkedin.com/events/7284721434587766784/about/). 
 
+## AI Chats for live sessions
+- [Chat for MDB Schema Builder](https://v0.dev/chat/dark-mode-design-concept-GxqJl1Rh5sc?b=b_WZYUXs2SA2j)
+- [Chat in v0](https://v0.dev/chat/dark-mode-design-concept-GxqJl1Rh5sc?b=b_WZYUXs2SA2j)
+
 ## Install or setup account
 - [v0.dev](https://v0.dev)
 - [MDB Schema Builder](https://mdb.link/mdb-schema-builder) 
@@ -9,7 +13,6 @@ Musiker repo is an attempt to reproduce streaming platform using almost 0 zero c
 - install npm
 - install node.js 
 - install mongo : npm install mongodb
-
 
 ## Song data set
 The demo is using data set of songs hosted on S3. To have some songs data, I created _songs.json_ that should fit purpose. Thanks to [OpenGameArt](https://opengameart.org/) and authors for the songs.
