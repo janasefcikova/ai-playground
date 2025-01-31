@@ -1,8 +1,8 @@
 [
   {
-    "name": "Of Stone & Strings Loop",
+    "title": "Of Stone & Strings Loop",
     "slug": "trevor-lentz-of-stone-strings-loop",
-    "author": "Trevor Lentz",
+    "artist_name": "Trevor Lentz",
     "published": "Thursday, January 16, 2025 - 11:42",
     "art_type": "Music",
     "tags": [
@@ -24,13 +24,13 @@
     "file": {
       "name": "ofstonefix.mp3",
       "url": "https://opengameart.org/sites/default/files/ofstonefix.mp3",
-      "size": "5.1 Mb"
+      "file_size": "5.1 Mb"
     }
   },
   {
-    "name": "Crystal Cave Song18",
+    "title": "Crystal Cave Song18",
     "slug": "cynicmusic-crystal-cave-song18",
-    "author": "cynicmusic",
+    "artist_name": "cynicmusic",
     "published": "Friday, October 25, 2013 - 15:12",
     "art_type": "Music",
     "tags": [
@@ -53,13 +53,13 @@
     "file": {
       "name": "song18.mp3",
       "url": "https://opengameart.org/sites/default/files/song18.mp3",
-      "size": "534.9 Kb"
+      "file_size": "534.9 Kb"
     }
   },
   {
-    "name": "Town Theme (RPG)",
+    "title": "Town Theme (RPG)",
     "slug": "cynicmusic-town-theme-rpg",
-    "author": "cynicmusic",
+    "artist_name": "cynicmusic",
     "published": "Sunday, December 15, 2013 - 12:52",
     "art_type": "Music",
     "tags": [
@@ -80,13 +80,13 @@
     "file": {
       "name": "TownTheme.mp3",
       "url": "https://opengameart.org/sites/default/files/TownTheme.mp3",
-      "size": "1.3 Mb"
+      "file_size": "1.3 Mb"
     }
   },
   {
-    "name": "Awesomeness",
+    "title": "Awesomeness",
     "slug": "mrpoly-awesomeness",
-    "author": "mrpoly",
+    "artist_name": "mrpoly",
     "published": "Monday, December 13, 2010 - 09:54",
     "art_type": "Music",
     "tags": [
@@ -104,13 +104,13 @@
     "file": {
       "name": "awesomeness.wav",
       "url": "https://opengameart.org/sites/default/files/awesomeness.wav",
-      "size": "8.4 Mb"
+      "file_size": "8.4 Mb"
     }
   },
   {
-    "name": "Tremolo Loading Loop",
+    "title": "Tremolo Loading Loop",
     "slug": "brandon-morris-tremolo-loading-loop",
-    "author": "Brandon Morris",
+    "artist_name": "Brandon Morris",
     "published": "Thursday, November 4, 2010 - 02:59",
     "art_type": "Music",
     "tags": [
@@ -140,13 +140,13 @@
     "file": {
       "name": "TremLoadingloopl.wav",
       "url": "https://opengameart.org/sites/default/files/TremLoadingloopl.wav",
-      "size": "3.6 Mb"
+      "file_size": "3.6 Mb"
     }
   },
   {
-    "name": "Path to Lake Land",
+    "title": "Path to Lake Land",
     "slug": "alexandr-zhelanov-path-to-lake-land",
-    "author": "Alexandr Zhelanov",
+    "artist_name": "Alexandr Zhelanov",
     "published": "Wednesday, March 28, 2012 - 09:24",
     "art_type": "Music",
     "tags": [
@@ -160,13 +160,13 @@
     "file": {
       "name": "Path to Lake Land.ogg",
       "url": "https://opengameart.org/sites/default/files/Path%20to%20Lake%20Land.ogg",
-      "size": "4.1 Mb"
+      "file_size": "4.1 Mb"
     }
   },
   {
-    "name": "Dark Rainy Night (ambience)",
+    "title": "Dark Rainy Night (ambience)",
     "slug": "kindland-dark-rainy-night-ambience",
-    "author": "kindland",
+    "artist_name": "kindland",
     "published": "Tuesday, March 25, 2014 - 03:17",
     "art_type": "Music",
     "tags": [
@@ -183,13 +183,13 @@
     "file": {
       "name": "Dark_Rainy_Night(ambience).ogg",
       "url": "https://opengameart.org/sites/default/files/Dark_Rainy_Night%28ambience%29.ogg",
-      "size": "6.8 Mb"
+      "file_size": "6.8 Mb"
     }
   },
   {
-    "name": "Happy Arcade Tune",
+    "title": "Happy Arcade Tune",
     "slug": "rezoner-happy-arcade-tune",
-    "author": "rezoner",
+    "artist_name": "rezoner",
     "published": "Tuesday, April 16, 2013 - 15:54",
     "art_type": "Music",
     "tags": [
@@ -205,12 +205,12 @@
     "file": {
       "name": "happy.mp3",
       "url": "https://opengameart.org/sites/default/files/happy.mp3",
-      "size": "3.6 Mb"
+      "file_size": "3.6 Mb"
     }
   },
   {
-    "name": "Snowland Town",
-    "author": "Matthew Pablo",
+    "title": "Snowland Town",
+    "artist_name": "Matthew Pablo",
     "slug": "matthew-pablo-snowland-town",
     "published": "Thursday, March 13, 2014 - 18:54",
     "art_type": "Music",
@@ -242,13 +242,13 @@
     "file": {
       "name": "Snowland Collection.zip",
       "url": "https://opengameart.org/sites/default/files/audio_preview/Snowland_1.mp3.ogg",
-      "size": "1.8 Mb"
+      "file_size": "1.8 Mb"
     }
   },
   {
-    "name": "Caves of Sorrow",
+    "title": "Caves of Sorrow",
     "slug": "alexandr-zhelanov-caves-of-sorrow",
-    "author": "Alexandr Zhelanov",
+    "artist_name": "Alexandr Zhelanov",
     "published": "Thursday, February 23, 2012 - 12:54",
     "art_type": "Music",
     "tags": [
@@ -262,13 +262,13 @@
     "file": {
       "name": "Caves of sorrow.ogg",
       "url": "https://opengameart.org/sites/default/files/Caves%20of%20sorrow.ogg",
-      "size": "4.6 Mb"
+      "file_size": "4.6 Mb"
     }
   },
   {
-    "name": "Forest",
+    "title": "Forest",
     "slug": "syncopika-forest",
-    "author": "syncopika",
+    "artist_name": "syncopika",
     "published": "Monday, August 11, 2014 - 08:03",
     "art_type": "Music",
     "tags": [
@@ -279,19 +279,19 @@
     ],
     "genre": "Ambient",
     "license": "CC-BY 3.0",
-    "description": "A forest theme with real nature sounds recorded by the author.",
+    "description": "A forest theme with real nature sounds recorded by the artist_name.",
     "copyright_notice": "Created by 'syncopika'.",
     "source": "https://opengameart.org/content/forest",
     "file": {
       "name": "forest.mp3",
       "url": "https://opengameart.org/sites/default/files/forest.mp3",
-      "size": "3.3 Mb"
+      "file_size": "3.3 Mb"
     }
   },
   {
-    "name": "Contemplation 3",
+    "title": "Contemplation 3",
     "slug": "estudiocafofo-contemplation-3",
-    "author": "Estudio Cafofo",
+    "artist_name": "Estudio Cafofo",
     "published": "Thursday, May 19, 2016 - 08:31",
     "art_type": "Music",
     "tags": [
@@ -305,13 +305,13 @@
     "file": {
       "name": "Contemplation 3.mp3",
       "url": "https://opengameart.org/sites/default/files/Cafofo%20-%20MUSIC%20-%20Contemplation%203.mp3",
-      "size": "Unknown"
+      "file_size": "Unknown"
     }
   },
   {
-    "name": "Grass lands",
+    "title": "Grass lands",
     "slug": "subspaceaudio-grass-lands",
-    "author": "SubspaceAudio",
+    "artist_name": "SubspaceAudio",
     "published": "Friday, May 12, 2017 - 02:41",
     "art_type": "Music",
     "tags": [
@@ -327,13 +327,13 @@
     "file": {
       "name": "Grasslands.ogg",
       "url": "https://opengameart.org/sites/default/files/Grasslands.ogg",
-      "size": "2.8 MB"
+      "file_size": "2.8 MB"
     }
   },
   {
-    "name": "Prepare Your Swords",
+    "title": "Prepare Your Swords",
     "slug": "bojidar-marinov-prepare-your-swords",
-    "author": "Bojidar Marinov",
+    "artist_name": "Bojidar Marinov",
     "published": "Wednesday, November 18, 2015 - 02:36",
     "art_type": "Music",
     "tags": [
@@ -348,13 +348,13 @@
     "file": {
       "name": "prepare-your-swords.mp3",
       "url": "https://opengameart.org/sites/default/files/prepare_your_swords_0.ogg",
-      "size": "1.2 Mb"
+      "file_size": "1.2 Mb"
     }
   },
   {
-    "name": "Calm BGM",
+    "title": "Calm BGM",
     "slug": "syncopika-calm-bgm",
-    "author": "syncopika",
+    "artist_name": "syncopika",
     "published": "Friday, April 17, 2015 - 10:33",
     "art_type": "Music",
     "tags": [
@@ -372,13 +372,13 @@
     "file": {
       "name": "041415calmbgm_0.ogg",
       "url": "https://opengameart.org/sites/default/files/041415calmbgm_0.ogg",
-      "size": "1.3 Mb"
+      "file_size": "1.3 Mb"
     }
   },
   {
-    "name": "Riverside Ride",
+    "title": "Riverside Ride",
     "slug": "matthew-pablo-riverside-ride",
-    "author": "Matthew Pablo",
+    "artist_name": "Matthew Pablo",
     "published": "Friday, February 21, 2014 - 13:50",
     "art_type": "Music",
     "tags": [
@@ -396,13 +396,13 @@
     "file": {
       "name": "Riverside%20Ride.mp3.ogg",
       "url": "https://opengameart.org/sites/default/files/audio_preview/Riverside%20Ride.mp3.ogg",
-      "size": "1.1 MB"
+      "file_size": "1.1 MB"
     }
   },
   {
-    "name": "Augmentality",
+    "title": "Augmentality",
     "slug": "augmentality-brandon-morris",
-    "author": "Brandon Morris",
+    "artist_name": "Brandon Morris",
     "published": "Monday, October 18, 2010 - 03:33",
     "art_type": "Music",
     "tags": [
@@ -432,13 +432,13 @@
     "file": {
       "name": "42b4b.ogg",
       "url": "https://opengameart.org/sites/default/files/42b4b.ogg",
-      "size": "4.1 Mb"
+      "file_size": "4.1 Mb"
     }
   },
   {
-    "name": "42 Monster RPG 2 Music Tracks",
+    "title": "42 Monster RPG 2 Music Tracks",
     "slug": "troutsneeze-42-monster-rpg-2-music-tracks",
-    "author": "troutsneeze",
+    "artist_name": "troutsneeze",
     "published": "Sunday, November 18, 2012 - 01:37",
     "art_type": "Music",
     "tags": [
@@ -456,13 +456,13 @@
     "file": {
       "name": "montage-music-20121120%40162812.ogg",
       "url": "https://opengameart.org/sites/default/files/montage-music-20121120%40162812.ogg",
-      "size": "4.8 Mb"
+      "file_size": "4.8 Mb"
     }
   },
   {
-    "name": "Magic Space",
+    "title": "Magic Space",
     "slug": "codemanu-magic-space",
-    "author": "CodeManu",
+    "artist_name": "CodeManu",
     "published": "Saturday, July 9, 2016 - 10:33",
     "art_type": "Music",
     "tags": [
@@ -479,7 +479,7 @@
     "file": {
       "name": "MagicSpace.ogg",
       "url": "https://opengameart.org/sites/default/files/magic%20space.mp3",
-      "size": "2.1 MB"
+      "file_size": "2.1 MB"
     }
   }
 ]
