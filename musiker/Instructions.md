@@ -229,7 +229,7 @@ Additionally, I updated the `last_played` field so that it is not null. Your dat
 }
 ```
 
-In V0 of my case, it completely replaced the previous app and created only the user management app.
+In my case, v0 completely replaced the previous app and created only the user management app.
 
 ---
 
@@ -256,4 +256,81 @@ In V0 of my case, it completely replaced the previous app and created only the u
 ```
 
 ### Adding indices in Compass
+
+![Compass-addGenreIndex.png](assets/Compass-addGenreIndex.png)
+
+We should do the same for tags. 
+
+![Compass-showIndices.png](assets/Compass-showIndices.png)
+### Connect v0 to Mongo [41:00]
+Copy the connection string in Compass.
+
+![Compass-CopyConnectionLink.png](assets/Compass-CopyConnectionLink.png)
+
+In v0:
+> I want to connect my MongoDB and the "songs" collection in the "MongoMP" database to this application. Add the URI secret to the project and build the necessary APIs.
+
+For me, the behavior of v0 was completely different from that of the presenter. For the presenter, v0 used an interactive form to request the URI. However, in my case, v0 consistently prompted me to make the changes in the code.
+
+#### v0 Response for the Presenter's Same Prompt
+![PresenterAddConnection.png](assets/PresenterAddConnection.png)
+
+#### v0 Response for the Same Prompt (My Case)
+![MineAddConnection.png](assets/MineAddConnection.png)
+
+#### Another Trial
+> I want to connect my MongoDB and the "songs" collection in the "MongoMP" database to this application. Add the URI secret to the project and build the necessary APIs. Let's start by adding the MongoDB URI as an environment variable and then create the necessary files for connecting to MongoDB and building our API routes.
+
+Similar to before, it didn't ask for the URI.  
+I need to find another way to prompt for it. It should work because [v0 can prompt for environment variables](https://www.linkedin.com/posts/v0dev_v0-can-now-prompt-you-for-environment-variables-activity-7270894587529822208-dFVl?utm_source=share&utm_medium=member_desktop).
+
+---
+
+#### Adding Environment Variables Manually in v0
+1. Navigate to project settings and click the plus icon in the "Environment Variables" section.
+
+![V0-add-key-manually-1.png](assets/V0-add-key-manually-1.png)
+
+![v0-add-key-manually-2.png](assets/v0-add-key-manually-2.png)
+
+![v0-add-key-manually-3.png](assets/v0-add-key-manually-3.png)
+
+> I have added the `MONGODB_URI` to the project. You should be able to use it and proceed with connecting this app to the MongoDB database called "MongoMP." Build the necessary APIs and fetch songs from the "songs" collection. Feel free to ask any questions.
+
+From this point onward, we can no longer preview the project directly in v0. We need to deploy it to Vercel each time.
+
+---
+
+### Allow Access to MongoDB from Vercel
+#### Whitelist Vercel’s IP Addresses (If Using MongoDB Atlas)
+If you're using MongoDB Atlas, you must allow access from Vercel servers. You can:
+
+1. Go to the MongoDB Atlas Dashboard → **Network Access**.
+2. Add `0.0.0.0/0` (this allows all IPs, only for testing purposes) or find Vercel's IPs to whitelist.
+3. Save the changes.
+
+![MongoAtlas-changeTestAccess-1.png](assets/MongoAtlas-changeTestAccess-1.png)
+
+![MongoAtlas-changeTestAccess-2.png](assets/MongoAtlas-changeTestAccess-2.png)
+
+You may also need to check if your MongoDB user has the necessary permissions or make the user an admin.
+
+---
+
+#### Ensure Your MongoDB User Has Permissions
+1. In MongoDB Atlas, ensure the user in your connection string has read and write access.
+2. Go to **Database Access** → **Edit User** → Set the role to **Atlas Admin** (for testing) or **Read and Write**.
+
+---
+
+### Deploying to Vercel
+In v0, click the "Deploy" button in the top-right corner.
+
+**Result**:  
+v0 made some changes to components.
+
+
+
+
+
 
